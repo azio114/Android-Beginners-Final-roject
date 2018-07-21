@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.xsandos.MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+<Button
+    android:id="@+id/play_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="PLAY"
+    android:textAllCaps="true"
+    android:layout_margin="20dp"
+    android:hint="Tap to play"
+    />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="settings"
+        android:textAllCaps="true"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="about"
+        android:textAllCaps="true"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exit"
+        android:textAllCaps="true"
+        android:layout_margin="20dp"/>
+
+    </LinearLayout>
